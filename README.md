@@ -12,5 +12,5 @@ Run in this directory to clone git repo and copy it to docker container:
 
 ```shell
 git clone https://github.com/Vighnesh-99/myportfolio.git
-docker cp source container_id:destination #soruce->myportfolio destination->/apache2/htdocs/
+docker cp source_path container_id:destination_path #soruce->myportfolio destination->/apache2/htdocs/
 ```
